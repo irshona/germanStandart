@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Немецкий стандарт</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=38aadbcb-1bb1-47fa-a0a7-3c185e0d4995&lang=ru_RU"></script>
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<div class="top-header__body">
+						<ul class="top-header__list">
+							<li class="top-header__item item-top-header item-top-header_flex">
+								<a href="#" class="item-top-header__logo"><img src="img/header/logo.png" alt=""></a>
+								<span>Кухни на заказ в Краснодаре</span>
+							</li>
+							<li class="top-header__item item-top-header">
+								<a href="#" class="item-top-header__answer">Отвечаем на звонки с 9:00 до 21:00 без выходных</a>
+							</li>
+							<li class="top-header__item item-top-header">
+								<a href="#" class="item-top-header__location _icon-location">г. Краснодар, ул. Красных Партизан, 483</a>
+							</li>
+							<li class="top-header__item item-top-header" data-da=".top-header__list-mobile,767,2">
+								<a href="#" class="item-top-header__button"><button class="top-header__button -btn">Рассчитать
+										стоимость</button></a>
+							</li>
+							<li class="top-header__item item-top-header" data-da=".top-header__list-mobile,767,1">
+								<div class="item-top-header__contacts contacts-item-top-header">
+									<a href="tel=+78612179376" class="contacts-item-top-header__phone">+7 (8612) 17-93-76</a>
+									<a href="tel=+79892779430" class="contacts-item-top-header__phone">+7 (989) 277-94-30</a>
+									<button class="contacts-item-top-header__button">Вам перезвонить?</button>
+								</div>
+							</li>
+						</ul>
+						<ul class="top-header__list-mobile"></ul>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__menu menu">
+						<div class="menu__button-border">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">Цены</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Акция</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Материалы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Как заказать</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Наши работы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__kitchensOrder kitchensOrder">
+				<div class="kitchensOrder__container">
+					<div class="kitchensOrder__content">
+						<h1 class="kitchensOrder__title">Кухни на заказ в <span>Краснодаре</span></h1>
+						<div class="kitchensOrder__calculation">
+							<div class="kitchensOrder__price _icon-money">Цена от <span>19990 ₽ м./п</span></div>
+							<div class="kitchensOrder__making _icon-calendar">Изготовим от <span>7 дней</span></div>
+							<div class="kitchensOrder__guarantee _icon-Quality">Гарантия <span>2 года</span></div>
+						</div>
+						<div data-da=".kitchensSaleMobile,767.98,2" class="kitchensOrder__sale sale-kitchensOrder">
+							<h2 class="sale-kitchensOrder__title">Акция</h2>
+							<div class="sale-kitchensOrder__text">Скидка <span>35%</span> на Вашу кухню</div>
+							<div class="sale-kitchensOrder__saleDate">до 01.01.2022</div>
+							<form action="sendmail.php" method="POST" class="sale-kitchensOrder__form form">
+								<div class="form__line">
+									<div class="form__input">
+										<input oninput="this.value=this.value.replace(/[^0-9]/g,'')" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Введите номер телефона" class="input">
+									</div>
+								</div>
+								<button type="submit" class="button">Получить скидку</button>
+							</form>
+						</div>
+					</div>
+					<div class="kitchensOrder__image -ibg"><img src="img/kitchensOrder/main.jpg" alt=""></div>
+				</div>
+			</section>
+			<section class="kitchensSaleMobile">
+				<div class="kitchensSaleMobile__container">
+
+				</div>
+
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__items">
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-Camada-2"></div>
+							<div class="item-services__text">Рассрочка 0% до 12 месяцев</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-setup"></div>
+							<div class="item-services__text">Устанавливаем кухни с 2013 года</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-gear"></div>
+							<div class="item-services__text">Бесплатная установка</div>
+						</div>
+						<div class="services__item item-services">
+							<div class="item-services__icon _icon-sandclock"></div>
+							<div class="item-services__text">Срок службы 20 лет</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<div class="popup__title">Заказать обратный <br> звонок</div>
+			<form data-ajax data-popup-message="#popup" action="sendmail.php" method="POST" class="form">
+				<div class="form__line">
+					<div class="form__input">
+						<input autocomplete="off" type="text" name="name" data-error="Ошибка" placeholder="Имя" class="input">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input">
+						<input autocomplete="off" type="text" name="phone" data-required="tel" data-validate
+							data-error="Введите номер в формате 7 (XXX) XXX-XX-XX" placeholder="Телефон" class="input phone-input">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input">
+						<textarea autocomplete="off" name="message" data-error="Ошибка" placeholder="Сообщение"
+							class="input"></textarea>
+					</div>
+				</div>
+				<div class="form__linecheck">
+					<div class="form__inputcheck">
+						<input autocomplete="off" type="checkbox" name="checkagree" data-error="Ошибка" placeholder="#"
+							id="agreeCheckbox" class="checkbox" checked>
+						<label for="agreeCheckbox">Я согласен с обработкой персональных данных</label>
+					</div>
+				</div>
+				<button id="submitButton" type="submit" class="button btn">Отправить</button>
+			</form>
+			<button data-close type="button" class="popup__close">Закрыть</button>
+		</div>
+		<div class="popup__text">
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
